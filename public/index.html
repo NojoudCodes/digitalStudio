@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Studio | Dashboard</title>
+    <link rel="stylesheet" href="/src/styles/base.css">
+    <link rel="stylesheet" href="/src/styles/custom.css">
+</head>
+    <body class="font-rubik">
+        <section class="flex">
+            <nav class="flex flex-col space-y-20 bg-light-gray-300 w-nav h-auto p-12">
+                <a href="#">
+                    <img src="/public/assets/images/nav/logo.png" alt="Logo" class="w-40">
+                </a>
+                <ul class="flex flex-col space-y-5">
+                    <li class="flex items-center space-x-2">
+                        <img src="/public/assets/images/icons/Line 1.png" alt="icon" class="w-5">
+                        <a href="#" class="text-lg font-medium text-dark">Clients</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-lg font-normal text-dark">Task Manager</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-lg font-normal text-dark">Inbox</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-lg font-normal text-dark">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <main class="flex flex-col w-main mt-3">
+                <div class="flex justify-between items-center space-x-5 mx-0 p-5 shadow-lg">
+                    <form class="relative w-search">
+                        <img src="/public/assets/images/icons/search.png" alt="search icon" class="w-5 absolute top-5 left-5">
+                        <input type="search" name="search" id="search" class="border border-light-gray-400 text-dark-gray-300 w-full  h-14 py-5 px-12 rounded-full" placeholder="Search">
+                    </form>
+                    <div class="flex justify-center items-center space-x-3 w-icons">
+                        <img src="/public/assets/images/icons/bell.png" alt="bell icon" class="w-7">
+                        <img src="/public/assets/images/icons/message.png" alt="bell icon" class="w-7">
+                    </div>
+                    <div class="flex items-center space-x-3 w-profile">
+                        <img src="/public/assets/images/icons/profile.png" alt="profile image" class="w-12">
+                        <div class="flex items-center">
+                            <p class="me-2">Azhar I.</p>
+                            <img src="/public/assets/images/icons/chevron-down.png" alt="chevron down icon" class="w-5">
+                        </div>
+                    </div>
+                </div><!-- upper nav -->
+                <div class="flex flex-col m-6">
+                    <div class="flex items-center space-x-3">
+                        <div class="flex items-center">
+                            <p class="text-dark-gray-400">Dashboard</p>
+                            <img src="/public/assets/images/icons/chevron-right.png" alt="chevron right icon" class="w-4">
+                        </div><!-- Dashboard-->
+                        <div class="flex items-center space-x-1">
+                            <p class="text-dark-gray-400">Clients</p>
+                            <img src="/public/assets/images/icons/chevron-right.png" alt="chevron right icon" class="w-4">
+                        </div><!-- Dashboard-->
+                    </div><!-- path -->
+                    <div>
+                        <h2 class="text-dark font-medium text-4xl mt-3">ОсОО “Energi.kg”</h2>
+                        <div class="flex items-center space-x-4">
+                            <div class="flex items-center space-x-12 mt-4 bg-light-gray-100 py-4 px-5 rounded-3xl w-5/12">
+                                <div class="flex flex-col space-y-2">
+                                    <div class="flex justify-between space-x-3">
+                                        <p class="text-dark text-sm font-medium">Address:</p>
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex justify-between space-x-3">
+                                        <p class="text-dark text-sm font-medium">Contacts:</p>
+                                        <p class="text-sm">+996545423</p>
+                                    </div>
+                                </div><!-- first column -->
+                                <div class="flex flex-col space-y-2">
+                                    <div class="flex justify-between space-x-3">
+                                        <p class="text-dark text-sm font-medium">Date added:</p>
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex justify-between items-center space-x-3">
+                                        <p class="text-dark text-sm font-medium">Status:</p>
+                                        <div class="flex items-center space-x-4">
+                                            <space class="bg-green w-3 h-3 rounded-full"></space>
+                                            <p class="text-sm">Active</p>
+                                        </div>
+                                    </div>
+                                </div><!-- second column -->
+                            </div>
+                            <div class="flex items-center space-x-12 mt-4 bg-light-gray-100 py-4 px-5 rounded-3xl w-7/12">
+                                <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus, sed arcu rhoncus suspendisse. Cursus nibh nam varius morbi mauris nulla urna. Nulla elit mattis semper eget venenatis, vitae. </p>
+                            </div>
+                        </div><!-- client info -->
+                    </div><!-- client detials-->
+                    <div class="flex justify-between space-x-8 mt-7">
+                        <div class="flex flex-col bg-light-gray-100 rounded-3xl p-5 w-9/12">
+                            <div class="flex justify-between items-center mb-4">
+                                <h3 class="font-medium text-xl">Projects</h3>
+                                <div class="flex items-center space-x-3">
+                                    <img src="/public/assets/images/icons/external-link.png" alt="export icon" class="w-5">
+                                    <p class="text-dark">Export</p>
+                                </div>
+                            </div><!-- title -->
+                            <div class="flex flex-col space-y-5">
+                                <div class="flex justify-between items-center space-x-4 bg-light-gray-200 py-6 px-4 rounded-3xl">
+                                    <h4 class="font-medium text-sm">ОсОО “Energi.kg”</h4>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/sunrise.png" alt="icon" class="w-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/sunrise.png" alt="icon" class="w-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/users.png" alt="icon" class="w-4">
+                                        <p class="text-sm">Adyl, Azhar, Arthur</p>
+                                    </div>
+                                </div><!-- project #1 -->
+                                <div class="flex justify-between items-center space-x-4 bg-light-gray-200 py-6 px-4 rounded-3xl">
+                                    <h4 class="font-medium text-sm">TextLab</h4>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/sunrise.png" alt="icon" class="w-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/sunrise.png" alt="icon" class="w-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/users.png" alt="icon" class="w-4">
+                                        <p class="text-sm">Adyl, Azhar, Arthur</p>
+                                    </div>
+                                </div><!-- project #2 -->
+                                <div class="flex justify-between items-center space-x-4 bg-light-gray-200 py-6 px-4 rounded-3xl">
+                                    <h4 class="font-medium text-sm">ComLab</h4>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/sunrise.png" alt="icon" class="w-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/sunrise.png" alt="icon" class="w-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/users.png" alt="icon" class="w-4">
+                                        <p class="text-sm">Adyl, Azhar, Arthur</p>
+                                    </div>
+                                </div><!-- project #3 -->
+                            </div><!-- first column-->
+                        </div><!-- projects details -->
+                        <div class="flex flex-col bg-light-gray-100 rounded-3xl pt-5 px-4 w-5/12">
+                            <h3 class="font-medium text-xl">Tasks</h3>
+                            <div class="mt-5 space-y-3">
+                                <div class="flex flex-col space-y-1 bg-light-gray-200 px-4 py-3 rounded-3xl">
+                                    <p class="font-medium">Переход по действиям</p>
+                                    <div class="flex items-center space-x-2">
+                                        <img src="/public/assets/images/icons/sunset.png" alt="icon" class="h-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                </div><!-- task #1-->
+                                <div class="flex flex-col space-y-1 bg-light-gray-200 px-4 py-3 rounded-3xl">
+                                    <p class="font-medium">Уведомления</p>
+                                    <div class="flex items-center space-x-2">
+                                        <img src="/public/assets/images/icons/sunset.png" alt="icon" class="h-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                </div><!-- task #2-->
+                                <div class="flex flex-col space-y-1 bg-light-gray-200 px-4 py-3 rounded-3xl">
+                                    <p class="font-medium">Приоритеты</p>
+                                    <div class="flex items-center space-x-2">
+                                        <img src="/public/assets/images/icons/sunset.png" alt="icon" class="h-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                </div><!-- task #3-->
+                            </div>
+                        </div><!-- Tasks -->
+                    </div><!-- clients projects -->
+                    <div class="flex justify-between space-x-8 mt-5">
+                        <div class="flex flex-col bg-light-gray-100 rounded-3xl p-5 w-9/12">
+                            <div class="mb-4">
+                                <h3 class="font-medium text-xl">Payments</h3>
+                            </div><!-- title -->
+                            <div class="flex flex-col space-y-5">
+                                <div class="flex justify-between items-center space-x-4 bg-light-gray-200 py-6 px-4 rounded-3xl">
+                                    <h4 class="font-medium text-sm">August invoice</h4>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/download.png" alt="icon" class="w-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/sunrise.png" alt="icon" class="w-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <img src="/public/assets/images/icons/9165538_dollar_money_icon.svg" alt="icon" class="w-2">
+                                        <p class="text-sm">100</p>
+                                    </div>
+                                </div><!-- project #1 -->
+                                <div class="flex justify-between items-center space-x-4 bg-light-gray-200 py-6 px-4 rounded-3xl">
+                                    <h4 class="font-medium text-sm">July invoice</h4>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/sunrise.png" alt="icon" class="w-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/sunrise.png" alt="icon" class="w-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <img src="/public/assets/images/icons/9165538_dollar_money_icon.svg" alt="icon" class="w-2">
+                                        <p class="text-sm">798</p>
+                                    </div>
+                                </div><!-- project #2 -->
+                                <div class="flex justify-between items-center space-x-4 bg-light-gray-200 py-6 px-4 rounded-3xl">
+                                    <h4 class="font-medium text-sm">June invoice</h4>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/sunrise.png" alt="icon" class="w-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <img src="/public/assets/images/icons/sunrise.png" alt="icon" class="w-4">
+                                        <p class="text-sm">12/04/2021</p>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <img src="/public/assets/images/icons/9165538_dollar_money_icon.svg" alt="icon" class="w-2">
+                                        <p class="text-sm">7890</p>
+                                    </div>
+                                </div><!-- project #3 -->
+                            </div><!-- first column-->
+                        </div><!-- projects details -->
+                        <div class="flex flex-col bg-light-gray-100 rounded-3xl pt-5 px-4 w-5/12">
+                            <div class="flex justify-between items-center">
+                                <h3 class="font-medium text-xl">Documents</h3>
+                                <img src="/public/assets/images/icons/download.png" alt="icon" class="w-4">
+                            </div>
+                            <div class="mt-5 space-y-3">
+                                <div class="flex justify-between items-center bg-light-gray-200 px-4 py-3 rounded-3xl">
+                                    <div class="flex flex-col space-y-2">
+                                        <p class="font-medium">Document_9</p>
+                                        <div class="flex items-center space-x-2">
+                                            <img src="/public/assets/images/icons/arrow-up-circle.png" alt="icon" class="w-4">
+                                            <p class="text-sm">12/04/2021</p>
+                                        </div>
+                                    </div>
+                                    <img src="/public/assets/images/icons/download.png" alt="icon" class="w-6">
+                                </div><!-- document #1-->
+                                <div class="flex justify-between items-center bg-light-gray-200 px-4 py-3 rounded-3xl">
+                                    <div class="flex flex-col space-y-2">
+                                        <p class="font-medium">Invoice_3</p>
+                                        <div class="flex items-center space-x-2">
+                                            <img src="/public/assets/images/icons/arrow-up-circle.png" alt="icon" class="w-4">
+                                            <p class="text-sm">12/04/2021</p>
+                                        </div>
+                                    </div>
+                                    <img src="/public/assets/images/icons/download.png" alt="icon" class="w-6">
+                                </div><!-- document #2-->
+                                <div class="flex justify-between items-center bg-light-gray-200 px-4 py-3 rounded-3xl">
+                                    <div class="flex flex-col space-y-2">
+                                        <p class="font-medium">Assassin_ass</p>
+                                        <div class="flex items-center space-x-2">
+                                            <img src="/public/assets/images/icons/arrow-up-circle.png" alt="icon" class="w-4">
+                                            <p class="text-sm">12/04/2021</p>
+                                        </div>
+                                    </div>
+                                    <img src="/public/assets/images/icons/download.png" alt="icon" class="w-6">
+                                </div><!-- document #3-->
+                            </div>
+                        </div><!-- payment -->
+                    </div><!-- clients projects -->
+                </div><!-- content -->
+                <footer class="mt-10 flex justify-center items-center text-sm text-dark h-10">
+                    <p>Designed by <a href="https://www.figma.com/community/file/1072789948144340793/task-tracker-for-small-and-medium-sized-businesses" target="_blank" class="font-medium text-green">Azhar Israilova</a></p>
+                </footer>
+            </main>
+        </section>
+    </body>
+</html>
